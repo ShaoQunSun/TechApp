@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" 
+        android:gravity="center"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_30"
+        android:background="@color/custom_dialog_bg">
+        
+        <ProgressBar
+            android:id="@+id/dlg_progress"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_marginRight="@dimen/padding_20"/>
+        <TextView
+            android:id="@+id/dlg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:gravity="center"
+            android:textSize="18.67sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"/>
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+        
+         <TextView
+            android:id="@+id/dlg_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="-15dp"
+            android:background="@drawable/selector_custom_dlg_close"/>
+    </LinearLayout>

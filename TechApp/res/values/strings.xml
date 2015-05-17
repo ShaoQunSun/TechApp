@@ -1,16 +1,41 @@
 <resources>
 
-    <string name="app_name">TechApp</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">同步课堂APP</string>
+    
+    <string name="title_activity_main">同步课堂APP</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_classroom">课堂</string>
+    <string name="title_activity_language">口语</string>
+    <string name="title_activity_class">班级</string>
+    <string name="title_activity_message">消息</string>
+    <string name="title_activity_more">更多</string>
+    <string name="title_activity_take_photo">拍图</string>
+    <string name="title_activity_dictionary">词典</string>
+    <string name="title_activity_setting">设置</string>
     
     <string name="tab_classroom">课堂</string>
+    <string name="tab_language">口语</string>
     <string name="tab_class">班级</string>
     <string name="tab_message">消息</string>
     <string name="tab_more">更多</string>
-    <string name="tab_language">口语</string>
+    
+    <string name="tab_classroom_home_work">老师作业</string>
+    <string name="tab_classroom_home_work_result">作业情况</string>
+    <string name="tab_classroom_internet_records">上网记录</string>
+    <string name="tab_classroom_sync_counseling">同步辅导</string>
+    <string name="tab_language_words">课文单词</string>
+    <string name="tab_language_reading">课文朗读</string>
+    <string name="tab_language_training">拓展训练</string>
+    <string name="tab_language_testing">口语测评</string>
+    <string name="tab_class_announcement">公告</string>
+    <string name="tab_class_praise">表扬</string>
+    <string name="tab_class_communication">沟通</string>
+    <string name="tab_class_questionnaire">问卷</string>
+    <string name="tab_class_curriculum">课表</string>
+    <string name="tab_message_sent">我发的</string>
+    <string name="tab_message_at_me">At我的</string>
+    <string name="tab_message_teacher_sent">老师发的</string>
 
-    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="tip_scan_text">将二维码放入框内, 即可自动扫描</string>
     
 </resources>
